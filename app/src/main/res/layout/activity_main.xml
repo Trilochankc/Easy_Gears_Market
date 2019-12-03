@@ -1,76 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:gravity="center"
-android:padding="20dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="342dp"
-        android:layout_height="213dp"
 
-        android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/login" />
-
-    <EditText
-        android:id="@+id/etusername"
-        android:layout_width="333dp"
-        android:layout_height="75dp"
-        android:layout_margin="10dp"
-        android:layout_marginTop="96dp"
-        android:drawablePadding="10dp"
-        android:hint="Email"
-        android:padding="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <EditText
-        android:id="@+id/etpswd"
-        android:layout_width="344dp"
-        android:layout_height="73dp"
-        android:layout_margin="10dp"
-        android:layout_marginTop="12dp"
-        android:drawablePadding="10dp"
-        android:hint="Password"
-        android:padding="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etusername" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="318dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="44dp"
-        android:padding="15dp"
-        android:shadowColor="@android:color/transparent"
-        android:text="Log In"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etpswd" />
-
-    <Button
-        android:layout_width="322dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="24dp"
-        android:padding="15dp"
-        android:shadowColor="@android:color/transparent"
-        android:text="Sign Up"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
