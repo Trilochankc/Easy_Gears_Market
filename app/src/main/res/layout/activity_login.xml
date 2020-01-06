@@ -46,6 +46,7 @@
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_person"
             android:drawablePadding="20dp"
+            android:id="@+id/etemail"
             android:hint="trilochan@gmail.com" />
 
         <TextView
@@ -59,7 +60,8 @@
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_person"
             android:drawablePadding="20dp"
-            android:hint="******" />
+            android:hint="******"
+            android:id="@+id/etpassword"/>
 
         <Button
             android:layout_width="match_parent"
@@ -67,6 +69,7 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/rec_gradient"
             android:text="login"
+            android:id="@+id/btnlogin"
             android:textAllCaps="true"
             android:textColor="#FFF" />
 
